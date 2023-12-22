@@ -8,12 +8,26 @@ function Content() {
 
     function handleBtnClick(id) {
         newToggleBtns[id] = !newToggleBtns[id];
+
+        for (var i = 0; i < newToggleBtns.length; i++) {
+            if (i !== id) {
+                newToggleBtns[i] = false;
+            }
+        }
+
         setToggleBtns(newToggleBtns);
     }
 
     function handleTitleClick(id) {
         if (toggleBtns[id] !== true) {
             newToggleBtns[id] = !newToggleBtns[id];
+
+            for (var i = 0; i < newToggleBtns.length; i++) {
+                if (i !== id) {
+                    newToggleBtns[i] = false;
+                }
+            }
+
             setToggleBtns(newToggleBtns);
         }
     }

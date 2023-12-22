@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/faq_accordion_ss.png)
+![](./public/images/faq_accordion_ss.png)
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
-- Live Site URL: https://your-live-site-url.com
+- Solution URL: https://github.com/TimmyOGH/Faq-Accordion
+- Live Site URL: https://timmyogh.github.io/Faq-Accordion
 
 ### Built with
 
